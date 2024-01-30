@@ -1,0 +1,80 @@
+print('**************************************************')
+print('                 Tatá´s Allowance                 ')
+print('**************************************************')
+
+# Name of each item in the allowance
+Item_01 = 'Help with dog care: '
+Item_02 = 'Keep the room tidy: '
+Item_03 = 'Score 100 at school (except English): '
+Item_04 = 'Score 100 in English: '
+Item_05 = 'Keep the house tidy: '
+Item_06 = 'Read a book: '
+Item_07 = 'Unload the dishwasher: '
+Item_08 = 'Load the dishwasher: '
+Item_09 = 'Charge the ladybug: '
+Item_10 = 'Hang clothes on the clothesline: '
+Item_11 = 'Take clothes off the clothesline: '
+
+# Value per item
+Value_item_01 = 0.5
+Value_item_02 = 0.4
+Value_item_03 = 2
+Value_item_04 = 3
+Value_item_05 = 0.4
+Value_item_06 = 1
+Value_item_07 = 0.3
+Value_item_08 = 0.5
+Value_item_09 = 0.2
+Value_item_10 = 0.5
+Value_item_11 = 1
+
+# Input the quantity of each action in the month
+print('Enter how many times you did each action in the month:')
+
+Quant_Item_01 = int(input(Item_01))
+Monthly_value_item_01 = Quant_Item_01 * Value_item_01
+print(f'Value for {Item_01}: $', Quant_Item_01 * Value_item_01)
+
+Quant_Item_02 = int(input(Item_02))
+Monthly_value_item_02 = Quant_Item_02 * Value_item_02
+print(f'Value for {Item_02}: $', Quant_Item_02 * Value_item_02)
+
+Quant_Item_03 = int(input(Item_03))
+Monthly_value_item_03 = Quant_Item_03 * Value_item_03
+print(f'Value for {Item_03}: $', Quant_Item_03 * Value_item_03)
+
+Quant_Item_04 = int(input(Item_04))
+Monthly_value_item_04 = Quant_Item_04 * Value_item_04
+print(f'Value for {Item_04}: $', Quant_Item_04 * Value_item_04)
+
+Quant_Item_05 = int(input(Item_05))
+Monthly_value_item_05 = Quant_Item_05 * Value_item_05
+print(f'Value for {Item_05}: $', Quant_Item_05 * Value_item_05)
+
+Quant_Item_06 = int(input(Item_06))
+Monthly_value_item_06 = Quant_Item_06 * Value_item_06
+print(f'Value for {Item_06}: $', Quant_Item_06 * Value_item_06)
+
+Quant_Item_07 = int(input(Item_07))
+Monthly_value_item_07 = Quant_Item_07 * Value_item_07
+print(f'Value for {Item_07}: $', Quant_Item_07 * Value_item_07)
+
+Quant_Item_08 = int(input(Item_08))
+Monthly_value_item_08 = Quant_Item_08 * Value_item_08
+print(f'Value for {Item_08}: $', Quant_Item_08 * Value_item_08)
+
+Quant_Item_09 = int(input(Item_09))
+Monthly_value_item_09 = Quant_Item_09 * Value_item_09
+print(f'Value for {Item_09}: $', Quant_Item_09 * Value_item_09)
+
+Quant_Item_10 = int(input(Item_10))
+Monthly_value_item_10 = Quant_Item_10 * Value_item_10
+print(f'Value for {Item_10}: $', Quant_Item_10 * Value_item_10)
+
+Quant_Item_11 = int(input(Item_11))
+Monthly_value_item_11 = Quant_Item_11 * Value_item_11
+print(f'Value for {Item_11}: $', Quant_Item_11 * Value_item_11)
+
+print('**************************************************')
+print('Total Tatá´s Allowance: $', float(Monthly_value_item_01) + float(Monthly_value_item_02) + float(Monthly_value_item_03) + float(Monthly_value_item_03) + float(Monthly_value_item_04) + float(Monthly_value_item_05) + float(Monthly_value_item_06) + float(Monthly_value_item_07) + float(Monthly_value_item_08) + float(Monthly_value_item_09) + float(Monthly_value_item_10) + float(Monthly_value_item_11))
+print('**************************************************')
